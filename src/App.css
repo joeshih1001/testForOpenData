@@ -1,0 +1,89 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+.taipeiLogo{
+  width: 15%;
+}
+.chartArea {
+  background-color: antiquewhite;
+  width: 85%;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+.area {
+  font-size: 2rem;
+  margin-right: 2%;
+}
+.selectArea {
+  font-size: 1.5rem;
+}
+.chartDiv {
+  width: 1000px;
+}
+/* RWD */
+@media screen and (max-width: 1180px) {
+  .chartDiv {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .chartDiv {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .App {
+    display: block;
+    height: 100vh;
+    align-items: center;
+  }
+  .chartArea {
+    background-color: antiquewhite;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 5%;
+    display: block;
+    
+
+  }
+  .chartDiv {
+    padding-left: 8%;   
+  }
+
+}
+@media screen and (max-width: 590px) {
+  .App {
+    display: block;
+    height: 100vh;
+    align-items: center;
+  }
+  .chartDiv {
+    width: 300px;
+  }
+  .chartArea {
+    background-color: antiquewhite;
+    width: 95%;
+    padding-top: 10%;
+    display: block;
+    
+
+  }
+  .chartDiv {
+    padding-left: 8%;
+    padding-top: 5%;   
+  }
+  .area {
+    padding-left: 20%;
+    font-size: 1rem;
+  }
+  .taipeiLogo {
+    margin-left: 33%;
+    width: 40%;
+  }
+  .selectArea {
+    font-size: 0.8rem;
+  }
+
+}
+
